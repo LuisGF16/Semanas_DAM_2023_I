@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("CICLOVIDA", "Activity está onCreate");
-        Toast.makeText(this, "Mensaje desde el Activity", Toast.LENGTH_SHORT).show();
+        /*Toast.makeText(this, "Mensaje desde el Activity", Toast.LENGTH_SHORT).show();*/
+
     }
 }
